@@ -24,4 +24,3 @@ Here's how the components come together:
 
 These codes collectively create a Discord bot that can perform Google searches, maintain search history, and retrieve past search history for users.
 
-DiscordSearchBot is a Discord bot powered by the Google Custom Search API. It allows users to perform Google searches directly within Discord and keeps track of their search history for convenient retrieval.
