@@ -17,10 +17,10 @@ This repository contains code to create a Discord bot capable of performing Goog
 ## Integration Details
 
 Here's how the components come together:
-- When the bot receives a command to perform a Google search (!google <search_query>), it invokes the GoogleApi class to perform the search.
+- When the bot receives a command to perform a Google search, it invokes the GoogleApi class to perform the search.
 - The search results are returned and sent back to the Discord channel where the command was issued.
 - Additionally, the search query along with the user who issued the command is stored in the SQLite database using the insertDb method of the DataBase class.
-- When a user requests their recent search history (!recent <search_query>), the bot retrieves the past search history from the database using the queryDb method of the DataBase class and sends it back to the user.
+- When a user requests their recent search history, the bot retrieves the past search history from the database using the queryDb method of the DataBase class and sends it back to the user.
 
 These codes collectively create a Discord bot that can perform Google searches, maintain search history, and retrieve past search history for users.
 
