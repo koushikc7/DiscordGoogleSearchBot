@@ -1,12 +1,4 @@
----
-runme:
-  id: 01HSBZES6S7Z474V22QWW8PEE4
-  version: v3
----
 
-# DiscordGoogleSearchBot
-
-```sh {"id":"01HSBZNXCM411ENMFWARHM36CN"}
 # Discord Search Bot
 
 This repository contains code to create a Discord bot capable of performing Google searches and maintaining a search history for users.
@@ -31,7 +23,5 @@ Here's how the components come together:
 - When a user requests their recent search history (!recent <search_query>), the bot retrieves the past search history from the database using the queryDb method of the DataBase class and sends it back to the user.
 
 These codes collectively create a Discord bot that can perform Google searches, maintain search history, and retrieve past search history for users.
-
-```
 
 DiscordSearchBot is a Discord bot powered by the Google Custom Search API. It allows users to perform Google searches directly within Discord and keeps track of their search history for convenient retrieval.
